@@ -1,5 +1,5 @@
 <script setup>
-import DashBoardView from './views/DashBoardView.vue';
+import DashBoardView from './views/DashboardView.vue';
 
 </script>
 

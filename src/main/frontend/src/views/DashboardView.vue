@@ -1,14 +1,13 @@
 <script setup>
 import FootPage from '../components/FootPage.vue';
 import HeadPage from '../components/HeadPage.vue';
-import ListAnimals from '../components/ListAnimals.vue';
+import Nav from '../components/Nav.vue';
+
 </script>
 
 <template>
   <HeadPage />
-  <main>
-  <ListAnimals />
-  </main>
+  <Nav></Nav>
   <FootPage />
 </template>
 
