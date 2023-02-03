@@ -26,7 +26,7 @@
     padding: 0 2em;
 
     &__logo{
-        width: 10%;
+        width: 8%;
         height: 50%;
     }
     &__container-social-media {
