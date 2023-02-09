@@ -1,4 +1,5 @@
-<script>
+<script >
+
 </script>
 
 <template>
@@ -23,8 +24,10 @@
             </select>
 
         <div class="conteinerButton">
-            <button><i class="fa-solid fa-house homeButtonImg"></i>HOME</button>
-            <button><i class="fa-solid fa-user-plus addButtonImg"></i>ADD +</button>
+            <button><i class="fa-solid fa-house homeButtonImg"></i><router-link to="/">landing</router-link></button>
+
+            <button><i class="fa-solid fa-house homeButtonImg"></i><router-link to="/home">HOME</router-link></button>
+            <button><i class="fa-solid fa-user-plus addButtonImg"></i> <router-link to="/addanimal">ADD +</router-link></button>
         </div>
     </div>
 </template>
@@ -32,7 +35,12 @@
 <style lang = "scss" scoped>
 
 #nav {
+<<<<<<< HEAD
     height: 81vh;
+=======
+    float: left;
+    height: 100vh;
+>>>>>>> 9a3b41bdadbabc5f337a8225d98647230e31b626
     width: 15%;
     background-color: #FDBBAC;
 }
@@ -52,11 +60,12 @@
 button {
     border-radius: 10px;
     margin: 20px;
+    display: flex;
     
 }
 .conteinerButton {
-margin-top: 15em;
-
+margin-top: 12em;
+margin-left: 1em;
 }
 
 .homeButtonImg {
